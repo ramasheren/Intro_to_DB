@@ -1,7 +1,7 @@
--- Use the correct database
+-- Use the specified database
 USE alx_book_store;
 
--- Get full description of the 'books' table without using DESCRIBE or EXPLAIN
+-- Get full column description of 'books' table without using DESCRIBE or ANALYZE
 SELECT 
     COLUMN_NAME AS 'Column',
     COLUMN_TYPE AS 'Type',
